@@ -1,0 +1,1631 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Information */
+
+.information {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.information .alert {
+    margin-top: -8px;
+    margin-bottom: -10px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.information a {
+    font-size: 12px;
+    color: #646464;
+    text-decoration: none;
+}
+
+.information .list {
+    margin-left: -35px;
+}
+
+.information ul li {
+    margin-right: 5px;
+    display: inline;
+}
+
+.information ul li img {
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: 7px;
+}
+
+.information ul li a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 0.3em;
+    color: #646464;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* End Information */
+
+
+/* Navbar */
+
+.navbar {
+    text-align: center;
+    border-style: solid;
+    border-color: #DCDCDC;
+    border-width: 0px 0px 1px 0.1px;
+}
+
+.navbar .bg-white {
+    background-color: #ffffff;
+}
+
+.navbar ul li a {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+
+/* End Navbar */
+
+
+/* Hero Banner */
+
+.hero-banner {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    border-width: 0px 0px 1px 0px;
+}
+
+.hero-banner h1 {
+    font-weight: 600;
+    margin-top: 45px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero-banner h4 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero-banner img {
+    margin-left: -30px;
+    margin-top: -2px;
+    margin-right: 8px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero-banner ul li {
+    font-size: 14px;
+    margin-left: -10px;
+    list-style-type: none;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+/* End Hero Banner */
+
+
+/* Features */
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features img {
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.features p {
+    font-size: 14px;
+    margin-top: 20px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+/* End Features */
+
+
+/* Package */
+
+.package {
+    text-align: center;
+}
+
+.bestseller {
+    margin-top: 10px;
+    position: absolute;
+    z-index: 99;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.package-card {
+    margin-top: 10px;
+    padding-top: 0px;
+    border-radius: 15px;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.package-card-active {
+    border: 1px solid #007FDE;
+}
+
+.package-card-normal {
+    border: 1px solid #646464;
+}
+
+.package .active {
+    z-index: 1;
+    color: #ffffff;
+    background-color: #008FEE;
+}
+
+.package .package-user-active {
+    margin-top: 0px;
+    color: #ffffff;
+    background-color: #007FDE;
+}
+
+.package-header {
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.package span {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.package h3 {
+    font-weight: 600;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.7s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.package h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    transform: scale(0);
+    animation-name: popup;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.package .bg-white {
+    color: #646464;
+}
+
+.package h5 {
+    margin-bottom: -10px;
+}
+
+.package h6 {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+}
+
+.package-body {
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -8px;
+    padding-bottom: 30px;
+}
+
+.package .btn-active {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1em;
+    font-size: 14px;
+    background-color: #007FDE;
+}
+
+.package .btn-package {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1em;
+    font-size: 14px;
+    color: #646464;
+    border: 1px solid #646464;
+    background-color: #ffffff;
+}
+
+.package .start {
+    color: #007FDE;
+}
+
+.package .package-normal {
+    border-bottom: 1px solid #646464;
+}
+
+.package .package-price {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+.package ul {
+    padding-top: 20px;
+}
+
+.package ul li {
+    font-size: 12px;
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+.package .btn {
+    margin-top: 20px;
+}
+
+
+/* End Package   */
+
+
+/* Powerfull */
+
+.powerfull {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.powerfull img {
+    height: 20px;
+}
+
+.powerfull a {
+    color: #646464;
+}
+
+.powerfull ul li {
+    list-style-type: none;
+}
+
+.powerfull-list {
+    margin-top: 30px;
+}
+
+.bar {
+    border-radius: 0.5em;
+    margin-top: 40px;
+    width: 100px;
+    height: 5px;
+    background-color: #f1f1f1;
+}
+
+
+/* End Powerfull */
+
+
+/* Hosting */
+
+.hosting {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.hosting h4 {
+    margin-bottom: 40px;
+}
+
+.hosting h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hosting p {
+    font-size: 15px;
+}
+
+.hosting img {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+
+/* End Hosting */
+
+
+/* Action */
+
+.action {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.action img {
+    margin-left: -28px;
+    margin-top: -2px;
+    margin-right: 8px;
+}
+
+.action ul li {
+    font-size: 14px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+.action .note {
+    margin-left: -27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.action .btn-active {
+    margin-left: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1em;
+    font-size: 14px;
+    background-color: #007FDE;
+}
+
+
+/* End Action */
+
+
+/* Modul */
+
+.modul {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.modul-list {
+    margin-top: 50px;
+}
+
+.modul ul li {
+    margin-left: -12px;
+    list-style-type: none;
+}
+
+.modul p {
+    margin-bottom: 0px;
+}
+
+.modul .btn-package {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1em;
+    font-size: 14px;
+    color: #646464;
+    border: 2px solid #646464;
+    background-color: #ffffff;
+}
+
+
+/* End Modul */
+
+
+/* Info */
+
+.info {
+    padding-top: 40px;
+}
+
+.info h3 {
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.info p {
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+
+.info .btn-active {
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1em;
+    font-size: 14px;
+    background-color: #007FDE;
+}
+
+
+/* End Info */
+
+
+/* Share */
+
+.share {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: #F7F7F7;
+}
+
+.share p {
+    font-size: 14px;
+}
+
+.share ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.share ul li img {
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: 7px;
+}
+
+.share ul li a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 0.3em;
+    border: 1px solid #DCDCDC;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* End Share */
+
+
+/* Help */
+
+.help h4 {
+    font-size: 18px;
+}
+
+.help {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #00A2F3;
+    color: #ffffff;
+}
+
+.help .btn-package {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1em;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #00A2F3;
+}
+
+
+/* End Help */
+
+
+/* Footer */
+
+.footer {
+    color: #BBBBBB;
+    padding-top: 50px;
+    background-color: #303030;
+}
+
+.footer ul li {
+    font-size: 13px;
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-left: -23px;
+}
+
+.footer .header {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #878787;
+}
+
+.footer input {
+    font-size: 14px;
+}
+
+.footer .form-control {
+    border-radius: 1em;
+}
+
+.footer .btn-primary {
+    font-size: 13px;
+    border-radius: 1em;
+    background-color: #00A2F3;
+}
+
+.footer a {
+    margin-right: 15px;
+    color: #BBBBBB;
+}
+
+.footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer img {
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.footer ul.payment li {
+    margin-right: 40px;
+    display: inline;
+}
+
+
+/* End Footer */
+
+@media (min-width: 576px) {
+    /* Navbar */
+    .navbar ul li a {
+        margin-left: 10px;
+    }
+    /* End Navbar */
+    /* Hero Banner */
+    .hero-banner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .hero-banner h1 {
+        margin-top: 45px;
+    }
+    .hero-banner h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner img {
+        margin-left: -30px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .hero-banner ul li {
+        margin-left: -10px;
+    }
+    /* End Hero Banner */
+    /* Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features p {
+        margin-top: 20px;
+    }
+    /* End Features */
+    /* Package */
+    .bestseller {
+        margin-top: 10px;
+    }
+    .package-card {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .package .package-user-active {
+        margin-top: 0px;
+    }
+    .package-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h5 {
+        margin-bottom: -10px;
+    }
+    .package h6 {
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .package-body {
+        margin-top: -8px;
+        padding-bottom: 30px;
+    }
+    .package .btn-active {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .btn-package {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .start {
+        color: #007FDE;
+    }
+    .package .package-price {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .package ul {
+        padding-top: 20px;
+    }
+    .package ul li {
+        font-size: 14px;
+        margin-left: -40px;
+    }
+    .package .btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    /* End Package   */
+    /* Powerfull */
+    .powerfull {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .powerfull .anu {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .powerfull-list {
+        margin-top: 30px;
+    }
+    .bar {
+        margin-top: 40px;
+    }
+    /* End Powerfull */
+    /* Hosting */
+    .hosting {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hosting h4 {
+        margin-bottom: 40px;
+    }
+    .hosting img {
+        margin-bottom: 30px;
+    }
+    /* End Hosting */
+    /* Action */
+    .action {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .action img {
+        margin-left: -28px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .action p {
+        font-size: 20px;
+    }
+    .action ul li {
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    .action .note {
+        font-size: 15px;
+        margin-left: -27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .action .btn-active {
+        margin-left: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Action */
+    /* Modul */
+    .modul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .modul-list {
+        margin-top: 50px;
+    }
+    .modul ul li {
+        margin-left: 40px;
+    }
+    .modul p {
+        margin-bottom: 0px;
+    }
+    .modul .btn-package {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Modul */
+    /* Info */
+    .info {
+        padding-top: 40px;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .info h3 {
+        margin-bottom: 23px;
+    }
+    .info p {
+        margin-bottom: 23px;
+    }
+    .info .btn-active {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Info */
+    /* Share */
+    .share {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .share ul li {
+        margin-right: 20px;
+    }
+    .share ul li img {
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-right: 7px;
+    }
+    .share ul li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* End Share */
+    /* Help */
+    .help h4 {
+        font-size: 20px;
+    }
+    .help {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .help .btn-package {
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Help */
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+    }
+    .footer ul li {
+        margin-bottom: 5px;
+    }
+    .footer .header {
+        margin-bottom: 15px;
+    }
+    .footer a {
+        margin-right: 15px;
+    }
+    /* End Footer */
+}
+
+@media (min-width: 768px) {
+    /* Navbar */
+    .navbar ul li a {
+        margin-left: 10px;
+    }
+    /* End Navbar */
+    /* Hero Banner */
+    .hero-banner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .hero-banner h1 {
+        margin-top: 45px;
+    }
+    .hero-banner h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner img {
+        margin-left: -30px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .hero-banner ul li {
+        margin-left: -10px;
+    }
+    /* End Hero Banner */
+    /* Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features p {
+        margin-top: 20px;
+    }
+    /* End Features */
+    /* Package */
+    .bestseller {
+        margin-top: 10px;
+    }
+    .package-card {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .package .package-user-active {
+        margin-top: 0px;
+    }
+    .package-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h5 {
+        margin-bottom: -10px;
+    }
+    .package h6 {
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .package-body {
+        margin-top: -8px;
+        padding-bottom: 30px;
+    }
+    .package .btn-active {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .btn-package {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .start {
+        color: #007FDE;
+    }
+    .package .package-price {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .package ul {
+        padding-top: 20px;
+    }
+    .package ul li {
+        font-size: 14px;
+        margin-left: -40px;
+    }
+    .package .btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    /* End Package   */
+    /* Powerfull */
+    .powerfull {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .powerfull .anu {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .powerfull-list {
+        margin-top: 30px;
+    }
+    .bar {
+        margin-top: 40px;
+    }
+    /* End Powerfull */
+    /* Hosting */
+    .hosting {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hosting h4 {
+        margin-bottom: 40px;
+    }
+    .hosting img {
+        margin-bottom: 30px;
+    }
+    /* End Hosting */
+    /* Action */
+    .action {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .action img {
+        margin-left: -28px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .action p {
+        font-size: 20px;
+    }
+    .action ul li {
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    .action .note {
+        font-size: 15px;
+        margin-left: -27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .action .btn-active {
+        margin-left: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Action */
+    /* Modul */
+    .modul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .modul-list {
+        margin-top: 50px;
+    }
+    .modul ul li {
+        margin-left: 40px;
+    }
+    .modul p {
+        margin-bottom: 0px;
+    }
+    .modul .btn-package {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Modul */
+    /* Info */
+    .info {
+        padding-top: 40px;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .info h3 {
+        margin-bottom: 23px;
+    }
+    .info p {
+        margin-bottom: 23px;
+    }
+    .info .btn-active {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Info */
+    /* Share */
+    .share {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .share ul li {
+        margin-right: 20px;
+    }
+    .share ul li img {
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-right: 7px;
+    }
+    .share ul li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* End Share */
+    /* Help */
+    .help {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .help .btn-package {
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Help */
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+    }
+    .footer ul li {
+        margin-bottom: 5px;
+    }
+    .footer .header {
+        margin-bottom: 15px;
+    }
+    .footer a {
+        margin-right: 15px;
+    }
+    /* End Footer */
+}
+
+@media (min-width: 992px) {
+    /* Navbar */
+    .navbar ul li a {
+        margin-left: 10px;
+    }
+    /* End Navbar */
+    /* Hero Banner */
+    .hero-banner {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .hero-banner h1 {
+        margin-top: 45px;
+    }
+    .hero-banner h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner img {
+        margin-left: -30px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .hero-banner ul li {
+        margin-left: -10px;
+    }
+    /* End Hero Banner */
+    /* Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features p {
+        margin-top: 20px;
+    }
+    /* End Features */
+    /* Package */
+    .bestseller {
+        margin-top: 10px;
+    }
+    .package-card {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .package .package-user-active {
+        margin-top: 0px;
+    }
+    .package-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h5 {
+        margin-bottom: -10px;
+    }
+    .package h6 {
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .package-body {
+        margin-top: -8px;
+        padding-bottom: 30px;
+    }
+    .package .btn-active {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .btn-package {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .start {
+        color: #007FDE;
+    }
+    .package .package-price {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .package ul {
+        padding-top: 20px;
+    }
+    .package ul li {
+        font-size: 14px;
+        margin-left: -40px;
+    }
+    .package .btn {
+        margin-top: 20px;
+    }
+    /* End Package   */
+    /* Powerfull */
+    .powerfull {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .powerfull .anu {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .powerfull-list {
+        margin-top: 30px;
+    }
+    .bar {
+        margin-top: 40px;
+    }
+    /* End Powerfull */
+    /* Hosting */
+    .hosting {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hosting h4 {
+        margin-bottom: 40px;
+    }
+    .hosting img {
+        margin-bottom: 30px;
+    }
+    /* End Hosting */
+    /* Action */
+    .action {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .action img {
+        margin-left: -28px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .action ul li {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .action .note {
+        font-size: 13px;
+        margin-left: -27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .action .btn-active {
+        margin-left: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Action */
+    /* Modul */
+    .modul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .modul-list {
+        margin-top: 50px;
+    }
+    .modul ul li {
+        margin-left: 40px;
+    }
+    .modul p {
+        margin-bottom: 0px;
+    }
+    .modul .btn-package {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Modul */
+    /* Info */
+    .info {
+        padding-top: 40px;
+    }
+    .info h3 {
+        margin-bottom: 23px;
+    }
+    .info p {
+        margin-bottom: 23px;
+    }
+    .info .btn-active {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Info */
+    /* Share */
+    .share {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .share ul li {
+        margin-right: 20px;
+    }
+    .share ul li img {
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-right: 7px;
+    }
+    .share ul li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* End Share */
+    /* Help */
+    .help {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .help .btn-package {
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Help */
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+    }
+    .footer ul li {
+        margin-bottom: 5px;
+    }
+    .footer .header {
+        margin-bottom: 15px;
+    }
+    .footer a {
+        margin-right: 15px;
+    }
+    /* End Footer */
+}
+
+@media (min-width: 1200px) {
+    /* Navbar */
+    .navbar ul li a {
+        margin-left: 20px;
+    }
+    /* End Navbar */
+    /* Hero Banner */
+    .hero-banner {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .hero-banner h1 {
+        margin-top: 45px;
+    }
+    .hero-banner h4 {
+        margin-bottom: 20px;
+    }
+    .hero-banner img {
+        margin-left: -30px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .hero-banner ul li {
+        margin-left: -10px;
+    }
+    /* End Hero Banner */
+    /* Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features p {
+        margin-top: 20px;
+    }
+    /* End Features */
+    /* Package */
+    .bestseller {
+        margin-top: 10px;
+    }
+    .package-card {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .package .package-user-active {
+        margin-top: 0px;
+    }
+    .package-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .package h5 {
+        margin-bottom: -10px;
+    }
+    .package h6 {
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .package-body {
+        margin-top: -8px;
+        padding-bottom: 30px;
+    }
+    .package .btn-active {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .btn-package {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .package .start {
+        color: #007FDE;
+    }
+    .package .package-price {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .package ul {
+        padding-top: 20px;
+    }
+    .package ul li {
+        margin-left: -40px;
+    }
+    .package .btn {
+        margin-top: 20px;
+    }
+    /* End Package   */
+    /* Powerfull */
+    .powerfull {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .powerfull .anu {
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .powerfull-list {
+        margin-top: 30px;
+    }
+    .bar {
+        margin-top: 40px;
+    }
+    /* End Powerfull */
+    /* Hosting */
+    .hosting {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hosting h4 {
+        margin-bottom: 40px;
+    }
+    .hosting img {
+        margin-bottom: 30px;
+    }
+    /* End Hosting */
+    /* Action */
+    .action {
+        padding-top: 40px;
+    }
+    .action img {
+        margin-left: -28px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .action ul li {
+        margin-left: 0px;
+    }
+    .action .note {
+        margin-left: -27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .action .btn-active {
+        margin-left: -25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Action */
+    /* Modul */
+    .modul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .modul-list {
+        margin-top: 50px;
+    }
+    .modul ul li {
+        margin-left: 40px;
+    }
+    .modul p {
+        margin-bottom: 0px;
+    }
+    .modul .btn-package {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Modul */
+    /* Info */
+    .info {
+        padding-top: 40px;
+    }
+    .info h3 {
+        margin-bottom: 23px;
+    }
+    .info p {
+        margin-bottom: 23px;
+    }
+    .info .btn-active {
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Info */
+    /* Share */
+    .share {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .share ul li {
+        margin-right: 20px;
+    }
+    .share ul li img {
+        margin-top: -2px;
+        margin-left: -2px;
+        margin-right: 7px;
+    }
+    .share ul li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* End Share */
+    /* Help */
+    .help {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .help .btn-package {
+        margin-top: -5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    /* End Help */
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+    }
+    .footer ul li {
+        margin-bottom: 5px;
+    }
+    .footer .header {
+        margin-bottom: 15px;
+    }
+    .footer a {
+        margin-right: 15px;
+    }
+    /* End Footer */
+}
+
+
+/* CSS Animation */
+
+@keyframes popup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
